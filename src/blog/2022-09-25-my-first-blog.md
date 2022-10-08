@@ -9,8 +9,20 @@ tags:
 image: /assets/blog/watercolor-desk.jpg
 imageAlt: A photograph of a desk with a blank piece of paper and watercolor set
 ---
-Photo by <a href="https://unsplash.com/ja/@heftiba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Toa Heftiba</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+Photo by <a href="https://unsplash.com/ja/@heftiba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Toa Heftiba</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>  
+
+
+```html
+<h1> I am the biggest heading </h1>
+<h2> I'm smaller than an h1 </h2>
+  ```
+
+  ```css
+  .crab {
+    background-color: red;
+    border: 2px dashed blue;
+  }
+  ```
 
 *5 May.*—I must have been asleep, for certainly if I had been fully awake I must have noticed the approach of such a remarkable place. In the gloom the courtyard looked of considerable size, and as several dark ways led from it under great round arches, it perhaps seemed bigger than it really is. I have not yet been able to see it by daylight.
 
