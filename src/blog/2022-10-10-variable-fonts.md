@@ -1,7 +1,7 @@
 ---
 title: Variable Fonts for Beginners
 author: Sarah Lopez
-description: Want to know more about ? Let's get started.
+description: If you don't know anything about Variable Fonts, this is the article for you!
 date: 2022-10-10T00:08:08.866Z
 tags:
   - variablefonts
