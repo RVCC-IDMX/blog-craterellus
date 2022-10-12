@@ -30,8 +30,6 @@ When you browse Google Fonts, there is a little checkbox just under the search b
 
 ![A checkbox checked with text to the right of it that says "Show only variable fonts"](/assets/blog/variable-fonts-02.png)
 
-
-![A screenshot of the Variable Fonts only checkbox on Google Fonts](./assets/blog/img/variable-fonts-02.png "Text to show on mouseover")
 When you find a font that you like, you can download it and add it to the fonts folder in your own project. Generally, it’s a good idea to host a variable font locally while using it for a project.
 
 ## Add a Variable Font to Your Project
