@@ -1,7 +1,7 @@
 ---
 title: Variable Fonts for Beginners
 author: Sarah Lopez
-description: Want to know more about ? Let's get started.
+description: If you don't know anything about Variable Fonts, this is the article for you!
 date: 2022-10-10T00:08:08.866Z
 tags:
   - variablefonts
@@ -27,7 +27,9 @@ A big reason why it’s good to choose variable fonts is that they take up way l
 There are a huge number of both static and variable fonts that you can use in your projects for free on Google Fonts. [Check it out here!](https://fonts.google.com/about)
 
 When you browse Google Fonts, there is a little checkbox just under the search bar that says: “Show only variable fonts”. Make sure that’s checked!
-![A screenshot of the Variable Fonts only checkbox on Google Fonts](./assets/blog/img/variable-fonts-02.png "Text to show on mouseover")
+
+![A checkbox checked with text to the right of it that says "Show only variable fonts"](/assets/blog/variable-fonts-02.png)
+
 When you find a font that you like, you can download it and add it to the fonts folder in your own project. Generally, it’s a good idea to host a variable font locally while using it for a project.
 
 ## Add a Variable Font to Your Project
@@ -42,14 +44,18 @@ You can add the font to your project using the @font-face CSS rule. Here’s wha
   src: url('/fonts/RobotoSerif-VariableFont_GRAD\,opsz\,wdth\,wght.ttf') format('truetype');
 }
 ```
+
 In the above example I'm using Roboto Serif. Note how in the url I'm linking to my project's font folder.
 
 ## Variable Font Axes
+
 So here’s the fun part. Now that you have the font hosted locally, you can start playing with it. Roboto Serif has five variable axes—italic, optical size, width, weight and grade, so there are an endless amount of possibilities. Different variable fonts will have different axes, so pay attention to what your font offers.
 
 And here they are in action!
 
-(INSERT IMG)
+![An screenshot of a simple web page with two headings and a paragraph. They all use the same font but look very different.](/assets/blog/variable-fonts-03.png)
+
+Here is the code that made this happen:
 
 ```css
 body {
@@ -79,13 +85,16 @@ p {
     font-style: italic;
     font-variation-settings: 'GRAD' -17, 'opsz' 132, 'wdth' 53.5, 'wght' 112;
   }
-  ```
+```
+
   Note that the axes are all in single quotes and are all given values in the font-variation-settings property.
 
 ## Summary
+
 And there you have it! Just find a font, locally install it into your project, and you’re ready to go. Variable fonts take up very little space for the amount of mileage you get out of them. They're simple to use too, so the (typography?) world is basically your oyster.
 
 ## Additional Reading
+
 https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide
 https://variablefonts.io/implementing-variable-fonts/
 https://web.dev/variable-fonts/
