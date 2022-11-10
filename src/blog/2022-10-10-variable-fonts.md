@@ -6,6 +6,7 @@ date: 2022-10-10T00:08:08.866Z
 tags:
   - variablefonts
   - webdev
+  - featured
 image: /assets/blog/markus-spiske-cz-s645zbho-unsplash.jpg
 imageAlt: Typefaces of a font family on a computer screen.
 ---

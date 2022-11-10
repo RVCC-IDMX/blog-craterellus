@@ -6,10 +6,9 @@ layout: 'base.njk'
 <section class="hero">
   <div class="container flow">
     <div class="hero__content flow">
-      <h1 class="section-title">Welcome to my blog!</h1>
-      <p>I use this space to document my adventures in front-end development, sharing how I've overcome issues I've
-        run into, useful resources, and more.</p>
-      <p>Below are some of my favourite articles, or you can go to the blog page to see my most recent posts.</p>
+      <h1 class="section-title">Sarah's Adventures in Web Development</h1>
+      <p>Welcome! I'm a Web Development newbie, diving head-first into the wild world of Webdev. It's a lot to take in, but I'm having fun. Join me on my journey to conquer (or at least become good friends with) HTML, CSS, and JavaScript.</p>
+      <p>Check out my articles below!</p>
       <div class="flex-group">
         <a href="#featured-articles" class="btn btn--primary">Featured articles</a>
         <a href="./blog" class="btn btn--neutral">Most recent articles</a>
@@ -24,8 +23,7 @@ layout: 'base.njk'
 <section id="featured-articles" class="featured-articles">
   <div class="container flow">
     <h2 class="section-title text-center ">Featured articles</h2>
-    <p class="text-center">Here is a sample of articles which I feel give you a good idea of what this site is all
-      about.</p>
+    <p class="text-center"></p>
     <ul role="list" class="articles__list flow">
       {%- for post in collections.featured | reverse -%}
       {% include 'article-snippet.njk' %}
