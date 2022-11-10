@@ -27,15 +27,17 @@
   --fw-900: 900;
 
   --clr-primary-200: hsla(280, 70%, 95%, 1);
-  --clr-primary-300: hsla(280, 80%, 50%, 1);
-  --clr-primary-400: hsla(280, 80%, 37%, 1);
-  --clr-primary-500: hsla(280, 80%, 20%, 1);
+  --clr-primary-300: hsla(280, 40%, 50%, 1);
+  --clr-primary-400: hsla(280, 40%, 37%, 1);
+  --clr-primary-500: hsla(280, 20%, 20%, 1);
 
-  --clr-neutral-100: hsla(0, 0%, 100%, 1);
-  --clr-neutral-300: hsla(0, 0%, 50%, 1);
-  --clr-neutral-400: hsla(0, 0%, 40%, 1);
-  --clr-neutral-500: hsla(0, 0%, 60%, 1);
-  --clr-neutral-900: hsla(0, 0%, 10%, 1);
+  --clr-neutral-100: hsla(30, 80%, 90%, 1);
+  --clr-neutral-300: hsla(25, 30%, 50%, 1);
+  --clr-neutral-400: hsla(25, 20%, 40%, 1);
+  --clr-neutral-500: hsla(25, 20%, 25%, 1);
+  --clr-neutral-900: hsla(25, 30%, 10%, 1);
+
+  --clr-headerbg: rgba(249, 235, 235, 0.86);
 }
 
 @media (min-width: 35em) {
@@ -136,7 +138,9 @@ select {
 body {
   font-family: var(--ff-body);
   font-size: var(--fs-300);
+  font-weight: 800;
   color: var(--clr-neutral-900);
+  background-color: var(--clr-neutral-100);
 }
 
 h1,
@@ -270,17 +274,26 @@ header,
 
 .hero > div {
   display: grid;
-  grid-auto-flow: row;
-  grid-auto-columns: 1fr;
+  grid-template-columns: 2fr 1fr;
   align-items: center;
-  gap: 3em;
 }
 
-.hero__image {
-  width: 100%;
-  /* max-height: max(15rem, 40vh); */
-  object-fit: cover;
+.hero {
+  background-image: url('assets/blog/img/diner.jpg');
+  background-position: center;
+  background-size: cover;
 }
+
+.hero__content {
+  background-color: var(--clr-headerbg);
+  padding-inline: 2.5em;
+  padding-block: 1em;
+  border-bottom-right-radius: 2em;
+}
+.section-title {
+  grid-column-start: 1;
+}
+
 
 @media (min-width: 45em) {
   .hero > div {
@@ -289,7 +302,7 @@ header,
 }
 
 .featured-articles {
-  background-color: var(--clr-primary-200);
+  background-color: var(--clr-primary-100);
 }
 
 .articles__list {
@@ -318,12 +331,17 @@ header,
 .snippet {
   display: grid;
   gap: 1em;
+  background-image: url('assets/blog/img/diner.jpg');
+  padding: 1em;
+  background-position:top;
+  background-size: cover;
   grid-template-areas:
     "image"
     "title"
     "meta"
     "body"
     "button";
+    
 }
 
 .snippet__image {
