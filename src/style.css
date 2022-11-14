@@ -29,7 +29,7 @@
   --clr-primary-200: hsla(280, 70%, 95%, 1);
   --clr-primary-300: hsla(280, 40%, 50%, 1);
   --clr-primary-400: hsla(280, 40%, 37%, 1);
-  --clr-primary-500: hsla(280, 20%, 20%, 1);
+  --clr-primary-500: hsla(280, 10%, 10%, 1);
 
   --clr-neutral-100: hsla(30, 80%, 90%, 1);
   --clr-neutral-300: hsla(25, 30%, 50%, 1);
@@ -279,7 +279,7 @@ header,
 }
 
 .hero {
-  background-image: url('assets/blog/img/diner.jpg');
+  background-image: url('assets/blog/img/tile-bg.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -331,7 +331,7 @@ header,
 .snippet {
   display: grid;
   gap: 1em;
-  background-image: url('assets/blog/img/diner.jpg');
+  background-image: url('assets/blog/img/tile-bg-light.jpg');
   padding: 1em;
   background-position:top;
   background-size: cover;
