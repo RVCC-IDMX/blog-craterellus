@@ -33,7 +33,7 @@
 
   --clr-neutral-100: hsla(30, 80%, 90%, 1);
   --clr-neutral-300: hsla(25, 30%, 50%, 1);
-  --clr-neutral-400: hsla(25, 20%, 40%, 1);
+  --clr-neutral-400: #996644;
   --clr-neutral-500: hsla(25, 20%, 25%, 1);
   --clr-neutral-900: hsla(25, 30%, 10%, 1);
 
@@ -221,9 +221,22 @@ section,
   justify-content: space-between;
 }
 
+.page-header__logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content:left;
+  gap: none;
+}
+
+.header-name {
+  font-size: 3rem;
+}
+
 .nav-list {
   margin: 0;
   padding: 0;
+  font-size: 1.3rem;
 }
 
 .nav-list a {
@@ -264,7 +277,7 @@ header,
   --logo-color: currentColor;
   padding: 2em 0;
   color: var(--clr-neutral-100);
-  background-color: var(--clr-primary-500);
+  background-color: var(--clr-neutral-400);
   text-align: center;
 }
 
@@ -333,6 +346,8 @@ header,
   gap: 1em;
   background-image: url('assets/blog/img/tile-bg-light.jpg');
   padding: 1em;
+  border: solid 3px var(--clr-neutral-400);
+  border-radius: 2rem;
   background-position:top;
   background-size: cover;
   grid-template-areas:
