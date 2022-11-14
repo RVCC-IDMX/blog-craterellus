@@ -28,10 +28,10 @@
 
   --clr-primary-200: hsla(280, 70%, 95%, 1);
   --clr-primary-300: hsla(280, 40%, 50%, 1);
-  --clr-primary-400: hsla(280, 40%, 37%, 1);
-  --clr-primary-500: hsla(280, 10%, 10%, 1);
+  --clr-primary-400: rgb(59, 26, 75);
+  --clr-primary-500: #2a254f;
 
-  --clr-neutral-100: hsla(30, 80%, 90%, 1);
+  --clr-neutral-100: #e0d5c3;
   --clr-neutral-300: hsla(25, 30%, 50%, 1);
   --clr-neutral-400: #996644;
   --clr-neutral-500: hsla(25, 20%, 25%, 1);
@@ -281,6 +281,10 @@ header,
   text-align: center;
 }
 
+.site-footer__content *{
+margin-inline: auto;
+}
+
 /* //////////////////////
   Homepage
   /////////////////////// */
@@ -370,7 +374,7 @@ header,
 }
 .snippet__meta {
   grid-area: meta;
-  color: var(--clr-neutral-400);
+  color: var(--clr-primary-400); 
 }
 
 .snippet__meta span {
