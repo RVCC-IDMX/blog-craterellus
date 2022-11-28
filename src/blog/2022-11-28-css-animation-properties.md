@@ -1,6 +1,6 @@
 ---
-title: CSS Animation Properties
-author: Sarah
+title: "Become a CSS Animation Pro: Animation Properties"
+author: Sarah Lopez
 description: A deep dive into every CSS Animation property. Learn how to
   fine-tune your CSS animations to perfection!
 date: 2022-11-28T00:06:37.702Z
