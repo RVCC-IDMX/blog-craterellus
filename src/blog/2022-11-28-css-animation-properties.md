@@ -98,6 +98,8 @@ Here’s an example of this being used with our apple:
 
 In the top pen, the animation-fill-mode is set to 'none', which is the default. When the animation ends, the apple jumps right back to its starting point. In the bottom pen, animation-fill-mode is set to 'forwards' and when the animation is finished, the apple stays put right where it lands.
 
+Note: You can and should replay these at any time using the 'rerun' button on the lower right corner.
+
 ## animation-play-state
 
 With this property, you can pause your animation. This is super useful if you want your animation to be activated by a hover effect or a button. By default, it is set to ‘running’, but to pause it, you can set this property to ‘paused’.
