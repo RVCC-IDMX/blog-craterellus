@@ -12,8 +12,9 @@ tags:
 image: /assets/blog/animation-article-hero-img.jpg
 imageAlt: A blurry view of a person walking mid stride.
 ---
-# Animation Properties: What are they?
 CSS Animations are easy to use, fun to make, and they can make your pages come alive. There are a bunch of ways to customize and alter your animations by using animation properties. With these tools at your disposal, you'll be able to have complete control over your animation work.
+
+## The Animation Shorthand
 
 Did you know that the animation property itself is shorthand for pretty much all the individual animation properties? It combines multiple properties into a convenient one-stop-shop. The animation shorthand property takes the values of animation-duration, animation-timing-function, animation-delay, animation-iteration-count, animation-direction, animation-fill-mode, animation-play-state, and animation-name. 
 
