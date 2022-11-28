@@ -12,6 +12,8 @@ tags:
 image: /assets/blog/animation-article-hero-img.jpg
 imageAlt: A blurry view of a person walking mid stride.
 ---
+<small>Photo by <a href="https://unsplash.com/@thommilkovic?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thom Milkovic</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
+
 CSS Animations are easy to use, fun to make, and they can make your pages come alive. There are a bunch of ways to customize and alter your animations by using animation properties. With these tools at your disposal, you'll be able to have complete control over your animation work.
 
 ## The Animation Shorthand
