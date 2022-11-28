@@ -44,6 +44,13 @@ This property is very customizable. You can set the value to cubic-bezier() and 
 With this property, your animation will start after a specified period of time. It can be in seconds or milliseconds. The default value for animation-delay is 0s. 
 You can use a negative value with animation-delay. This will cause your animation to start in the middle of a cycle. For instance, if the value is set to -1s, the animation will start one second into its cycle.
 
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="vYrrbdX" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/craterellus/pen/vYrrbdX">
+  Apple-delay</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 ## animation-iteration-count
 
 Use this property to specify how many times you’d like your animation to play. You can set the value to a positive number, or, if you’d like your animation to loop indefinitely, you can set the value to infinite. The default value of this property is 1.
@@ -52,15 +59,43 @@ Use this property to specify how many times you’d like your animation to play.
 
 This property has full evergreen support. So, what does it do? It’s pretty straightforward. (Haha, get it?) With this property, you can specify the direction in which your animation plays. You can use this property to reverse your animation. So, for example, let’s say you have an animation of a person walking from one side of the screen to another. With animation-direction, you can make the person walk backwards. You can also set it to alternate, which loops between normal and reverse. The value alternate-reverse is very much the same, but...reverse!
 
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="GRGGzQW" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/craterellus/pen/GRGGzQW">
+  Apple-direction</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 ## animation-fill-mode
 
 Animation-fill-mode is used for determining where the image you’re animating ends up at the end of its animation cycle.
 This property is useful for animations that aren’t designed to loop seamlessly. Its functionality is somewhat more specific than that of the other properties. Let’s say you have an animation of an object that goes from point a to point b. When the animation is finished running, does the object stay at point b, or does it jump back to point a? This is what animation-fill-mode is for. It can be set to forwards, backwards, both, none, and inherit.
 Here’s an example of this being used with our flying apple: 
 
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOKKqvW" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/craterellus/pen/gOKKqvW">
+  Apple-fill-mode-default</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="qBKKgJO" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/craterellus/pen/qBKKgJO">
+  Apple-fill-mode-forwards</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+
 ## animation-play-state
 
 With this property, you can pause your animation. This is super useful if you want your animation to be activated by a hover effect or a button. By default, it is set to ‘running’, but to pause it, you can set this property to ‘paused’.
+
+<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoaaVQj" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/craterellus/pen/PoaaVQj">
+  Apple-play-state</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 The following two properties are experimental and don’t have functionality in most browsers yet.  
 
