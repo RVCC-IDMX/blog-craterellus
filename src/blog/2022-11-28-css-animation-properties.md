@@ -19,7 +19,7 @@ Did you know that the animation property itself is shorthand for pretty much all
 
 We'll be going into more detail for each property below. In order to demonstrate some of these properties in action, I'll be throwing this here apple around. Hope you don't mind!
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="dyKZZpx" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="html,result" data-slug-hash="dyKZZpx" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/craterellus/pen/dyKZZpx">
   Apple</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
