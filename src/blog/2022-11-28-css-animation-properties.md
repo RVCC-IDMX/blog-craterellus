@@ -49,14 +49,14 @@ With this property, your animation will start after a specified period of time. 
 
 You can use a negative value with animation-delay. This will cause your animation to start in the middle of a cycle. For instance, if the value is set to -1s, the animation will start one second into its cycle.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="vYrrbdX" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="400" data-default-tab="html,result" data-slug-hash="vYrrbdX" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/craterellus/pen/vYrrbdX">
   Apple-delay</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
-In the example above, the animation-delay property is being assigned the value of 4s. It takes four seconds to start (and it feels like forever). You can replay the animation by clicking the rerun button on the lower right corner.
+In the example above, the animation-delay property is being assigned the value of 2s. It takes two seconds to start. You can replay the animation by clicking the rerun button on the lower right corner.
 
 ## animation-iteration-count
 
@@ -68,7 +68,7 @@ So, what does animation-direction do, you ask? It’s pretty straightforward. (H
 
 You can see this property in action in the example below!
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="GRGGzQW" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="html,result" data-slug-hash="GRGGzQW" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/craterellus/pen/GRGGzQW">
   Apple-direction</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
@@ -101,7 +101,7 @@ In the top pen, the animation-fill-mode is set to 'none', which is the default. 
 
 With this property, you can pause your animation. This is super useful if you want your animation to be activated by a hover effect or a button. By default, it is set to ‘running’, but to pause it, you can set this property to ‘paused’.
 
-<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoaaVQj" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+<p class="codepen" data-height="500" data-default-tab="html,result" data-slug-hash="PoaaVQj" data-user="craterellus" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
   <span>See the Pen <a href="https://codepen.io/craterellus/pen/PoaaVQj">
   Apple-play-state</a> by Sarah Lopez (<a href="https://codepen.io/craterellus">@craterellus</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
